@@ -7,6 +7,6 @@ import Env
 
 main :: IO ()
 main = do
-  putStrLn "Interpreter for ST Lambda."
+  putStrLn "Interpreter for System Fω."
   putStrLn "Type :? for help."
   void $ execStateT initRepl baseEnv
